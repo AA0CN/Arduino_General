@@ -1,0 +1,33 @@
+/*
+ *               --------\_/--------
+ *               | pin1       pin28 |   
+ *  Reset button - RST           A5 -    
+ *               |                  |   
+ *  ISP TX       - D0RX          A4 -  
+ *               |        A         |   
+ *  ISP RX       - D1TX   T      A3 -    
+ *               |        M         |   
+ *               - D2     E      A2 -    
+ *               |        L         |   
+ *               - D3PWM         A1 -    
+ *               |        A         |   
+ *               - D4     T      A0 -    
+ *               |        M         |   
+ * VCC---------- - VCC    E     GND - ----------GND
+ *               |        G         |   
+ * GND---------- - GND    A    AREF -    
+ *               |        3         |   
+ * GND--||--|--- - TOSC1  2     VCC - ----------VCC
+ *   16MHz []    |        8         |   
+ * GND--||--|--- - TOSC2  P     D13 -    
+ *               |        |         |   
+ *               - D5     P     D12 -    
+ *               |        U         |   
+ *               - D6        D11PWM -    
+ *               |                  |   
+ *               - D7        D10PWM -   
+ *               |                  |   
+ *               - D8         D9PWM -    
+ *               | pin14      pin15 |   
+ *               --------------------    
+ */
